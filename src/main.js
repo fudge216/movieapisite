@@ -5,7 +5,7 @@ import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
 
 import VueRouter from 'vue-router'
 import Home from './components/Home.vue'
-import Movies from './componets/Movies.vue'
+import Movies from './components/Movies.vue'
 import Detail from './components/Detail.vue'
 Vue.use(VueRouter)
 
