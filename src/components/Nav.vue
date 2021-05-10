@@ -8,9 +8,10 @@
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
                
-                <a class="nav-link" href="#">Home</a>
-                <a class="nav-link" href="#">Movies</a>
-               
+                <!-- <a class="nav-link" href="#">Home</a>
+                <a class="nav-link" href="#">Movies</a> -->
+                <router-link class="nav-link" to='/'>Home</router-link>
+                <router-link class="nav-link" to='/Movies'>Movies</router-link>
             </div>
         </div>
     </nav>
